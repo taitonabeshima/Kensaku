@@ -1,0 +1,57 @@
+html{
+    color: rgb(67, 64, 64);
+
+}
+
+body{
+    background-image:url(https://s3-ap-northeast-1.amazonaws.com/cdn.word-dictionary.jp/production/imgs/images/000/006/866/original.jpg?1595140361);
+    margin: auto;
+    padding: 0;
+    text-align: left ;
+    font-size: 50px;
+    font-family: sans-serif;
+    
+}
+
+
+input{
+    /* margin-top: 10px; */
+    margin: auto;
+    margin-left: 10px;
+    padding: 0;
+    text-align: left ;
+    font-size: 15px;
+    /* display: flex; */
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 70%;
+    background-color: rgb(221, 248, 238);
+    border-radius: 3% 3%/ 7% 7% ;
+    border: none;
+
+
+}
+
+button{
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: 100ms;
+    cursor: pointer;
+}
+
+button:hover{
+    transform: scale(1.2);
+}
+
+textarea{
+    margin-top: 2rem;
+    width: 30vw;
+    height: 10rem;
+    background-color: rgb(206, 231, 222);
+    border: none;
+    font-family: sans-serif;
+
+}
